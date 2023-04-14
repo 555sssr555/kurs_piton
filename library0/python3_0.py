@@ -29,10 +29,6 @@ input("""\t \t 3.
 Первый вид это статический который не требуе явного определения, к какому типу относится переменнная.
 За счет этого падает скорость обработки кода, но в написании кода, меньше уходит строк""")
 
-
-def clearShell():
-    import os
-    os.system(['clear', 'cls'][os.name == os.sys.platform])
 clearShell()  # Очистка терминала
 
 def memo():
@@ -51,12 +47,8 @@ def memo():
     и вам придется переименовать файл.
     17\n""")
     input("""При прочтении документации нажимай ENTER""")
-    def clearShell():
-        import os
-        os.system(['clear', 'cls'][os.name == os.sys.platform])
+
     clearShell()#Очистка терминала
-
-
 
     komments = print("""\tЕсть такая функцыя как коментарий.
     Это означает что коментарий в програмировании воспроизводится компелятором
@@ -94,9 +86,6 @@ def memo():
     знак = это присваения переменной значения
     цыфры-это значения переменной""")
 
-    def clearShell():
-        import os
-        os.system(['clear', 'cls'][os.name == os.sys.platform])
     clearShell()
 
     import os
@@ -115,9 +104,6 @@ def memo():
     Типы дынных это базавая структура языка и эти типы данных имеют два
     типа _изменяемые и не _изменяемые.""")
 
-    def clearShell():
-        import os
-        os.system(['clear', 'cls'][os.name == os.sys.platform])
     clearShell()
 
     img = plt.imread('/home/bsg/Desktop/shkola/Kurs_piton/library/99770381_2.png')
@@ -131,9 +117,6 @@ def memo():
     тебе советую больше читать нежели смотреть видео
     по изучению языка Python3""")
 
-    def clearShell():
-        import os
-        os.system(['clear', 'cls'][os.name == os.sys.platform])
     clearShell()
 
     """документация python3"""
@@ -147,9 +130,6 @@ def memo():
         это правила PEP-8""")
     additions_strok()
 
-    def clearShell():
-        import os
-        os.system(['clear', 'cls'][os.name == os.sys.platform])
     clearShell()
     
     """арефметические значения"""
